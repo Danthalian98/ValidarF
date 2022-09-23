@@ -3,25 +3,6 @@
 #include <string.h>
 using namespace std;
 
-/*
-int convertir(string a, int year, int mes, int dia) {
-	string datos[2];
-	char str[] = a;
-	char* temp = NULL;
-
-	char* token = strtok_s(str, "/", &temp);
-
-
-
-	while (token != NULL)
-	{
-		printf("%s\n", token);
-		token = strtok_s(NULL, "/", &temp);
-		datos;
-	}
-	return(year, mes, dia);
-}
-*/
 class Fecha{
 public:
 	string a;
